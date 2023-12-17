@@ -1,3 +1,27 @@
-.container {
-  background-color: aquamarine;
+#container {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+}
+
+#headerText {
+  background-color: aqua;
+}
+
+#body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.note {
+  height: 400px;
+  width: 400px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color: antiquewhite;
+  margin: 15px;
 }
