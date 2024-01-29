@@ -1,6 +1,6 @@
 #container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 #header {
@@ -24,4 +24,11 @@
   border-radius: 15px;
   background-color: antiquewhite;
   margin: 15px;
+}
+
+#pane {
+  display: flex;
+  flex-direction: column;
+
+  background-color: orange;
 }
