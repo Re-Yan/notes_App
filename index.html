@@ -8,14 +8,19 @@
   </head>
   <body>
     <div id="container">
-      <header id="header">
-        <h1 id="headerText">Notebook Name</h1>
-      </header>
-      <!-- add note button -->
-      <div id="body">
-        <button type="button" id="addNote">
-          <textarea class="note1"></textarea>
-        </button>
+      <div id="pane">
+        <div class="username">Reyan</div>
+        <input type="search" id="note-search" />
+        <button type="button" id="addNote">New Note</button>
+      </div>
+      <div class="header-body">
+        <header id="header">
+          <h1 id="headerText">Notebook Name</h1>
+        </header>
+        <!-- add note button -->
+        <div id="body">
+          <textarea class="note"></textarea>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
