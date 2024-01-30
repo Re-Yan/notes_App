@@ -32,3 +32,12 @@
 
   background-color: orange;
 }
+
+#note-search {
+  border-radius: 15px;
+}
+
+#addNote {
+  border-radius: 15px;
+  background-color: aquamarine;
+}
